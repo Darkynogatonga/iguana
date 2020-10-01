@@ -1,0 +1,122 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin:0;
+  background-color: #000000;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  margin:0.28125rem 0;
+  color: #ffffff;
+}
+h2 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 3.125rem;
+}
+h3 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-top:1rem;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.negro {
+  text-align: center;
+  color: #ffffff;
+  background: #000000;
+  position: fixed;
+  top:0;
+  width: 100vw;
+}
+
+.hero-section {
+  background-image: url('../img/bg-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:22rem 0;
+  margin: 4rem 0 0;
+
+}
+
+.desc-section{
+  background-color: #000000;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 300;
+  padding: 4rem 9.375rem;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.texto-desc {
+    width:50%;
+}
+.texto-desc  p {
+  font-weight: 300;
+  font-size:1rem;
+}
+
+.foto-desc {
+    width: 35%;
+    float: right;
+  }
+  .foto-desc img {
+      width: 100%;
+    }
+
+.foto-desc, .texto-desc {
+  display: inline-block;
+}
+
+.icons-section{
+  background-color: #1E1A13;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.icons{
+  width: 33%;
+  display: inline-block;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.gallery {
+  background-color: #000000;
+  padding: 4rem 9.375rem 4rem;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.photo{
+  width: 33%;
+  display: inline-block;
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+}
+.photo img{
+  width: 100%;
+}
+
+
+.footer {
+  background-color: #1E1A13;
+  color:#ffffff;
+  font-weight: 300;
+  padding: 1.5rem 0;
+}
+.footer a{
+  color: #ffffff;
+  text-decoration: none;
+}
